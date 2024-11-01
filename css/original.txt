@@ -1,0 +1,40 @@
+.blur {
+  filter:blur(10px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+}
+
+.asub00 {height:100vh; width:100vw; margin:0; padding:0; position:fixed; top:0; left:0; background:rgba(0,0,0,.8);}
+
+.asub00_msgWin {height:400px; width:500px; padding:10px 20px; margin-left:auto; margin-right:auto; margin-top:calc(50vh - 250px); background:rgba(255,255,255,.9); box-shadow:1px 1px 10px rgba(0,0,0,.7); border-radius:4px;}
+
+.asub00_msgWin > * {position:relative; font-family:Verdana; font-size:12px; color:#222; line-height:16px;}
+
+.asub00_msgHead {
+  height:80px; 
+  background-image: url(../img/alert_4.png); 
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:left;
+}
+.asub00_msgHead > * {text-align:right;}
+.asub00_msgHead > p:first-child, .asub00_msgFoot > p:first-child {margin:10px 0px;font-size:14px;font-weight:bold;}
+
+.asub00_msgMid {height:200px;
+  background-image: url(../img/stop_1.png); 
+  background-size:40%;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.asub00_msgFoot {
+  height:80px;
+  background-image: url(../img/gads2.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:right;
+}
+.asub00_msgFoot > * {text-align:left;}
